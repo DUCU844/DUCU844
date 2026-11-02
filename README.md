@@ -38,7 +38,7 @@ Estudiante de Ingeniería de Sistemas con un perfil versátil: construyo y despl
 
 | | EN | ES |
 |---|---|---|
-| [Notification Service](https://github.com/PATRICI-A/squirtle-squad-notification-service) | Technical lead of the microservices team. Designed the Notification Service with hexagonal architecture, WebSocket/STOMP and MongoDB, and migrated the message broker to a self-managed AWS EC2 instance with Docker. | Líder técnico del equipo de microservicios. Diseñé el servicio de notificaciones con arquitectura hexagonal, WebSocket/STOMP y MongoDB, y migré el broker de mensajería a una instancia EC2 propia con Docker. |
+| [Feed & Search Service](https://github.com/PATRICI-A/mewtwocode-feed-search-service) | Microservice for the feed, search, interactions and recommendations of the platform: 5 REST endpoints secured with JWT (OAuth2 resource server), PostgreSQL, Redis cache and hexagonal architecture, with CI/CD and Docker. I also migrated the squad's message broker to a self-managed AWS EC2 instance. | Microservicio de feed, búsqueda, interacciones y recomendaciones de la plataforma: 5 endpoints REST protegidos con JWT (OAuth2 resource server), PostgreSQL, caché con Redis y arquitectura hexagonal, con CI/CD y Docker. También migré el broker de mensajería del equipo a una instancia EC2 propia. |
 
 ### Data analysis & ML · Análisis de datos y ML
 
@@ -94,6 +94,7 @@ Estudiante de Ingeniería de Sistemas con un perfil versátil: construyo y despl
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
