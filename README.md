@@ -46,6 +46,8 @@
 **Cloud & DevOps**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -60,12 +62,12 @@
 
 | Project | EN | ES | Stack |
 |---|---|---|---|
-| [Secure Web System](https://github.com/DUCU844/secure-web-system-auth0) | React SPA + Spring Boot resource server secured with Auth0 (OAuth2/JWT), served over HTTPS with Apache on AWS | SPA en React + API Spring Boot protegida con Auth0 (OAuth2/JWT), servida por HTTPS con Apache en AWS | React · Spring Boot · Auth0 · Apache · AWS |
-| [Java HTTP Server → AWS](https://github.com/DUCU844/java-http-server-aws) | HTTP server built from raw sockets, extended into a mini web framework and deployed with Docker on EC2 | Servidor HTTP desde sockets, extendido a un mini framework web y desplegado con Docker en EC2 | Java · Sockets · Docker · AWS EC2 |
-| [API Gateway Microservices](https://github.com/DUCU844/api-gateway-microservices) | API gateway routing requests across microservices | API gateway que enruta peticiones entre microservicios | Java · Spring Boot |
-| [AWS Lambda + API Gateway](https://github.com/DUCU844/aws-lambda-api-gateway-java) | Serverless Java function exposed through Amazon API Gateway | Función serverless en Java expuesta con Amazon API Gateway | Java · AWS Lambda · API Gateway |
-| [RAG with Gemini](https://github.com/DUCU844/rag-gemini) | Retrieval-Augmented Generation pipeline over custom documents | Pipeline de RAG (Retrieval-Augmented Generation) sobre documentos propios | Python · Gemini · Jupyter |
-| [Concurrency in Java](https://github.com/DUCU844/java-concurrency-labs) | Thread synchronization, barriers and concurrent game simulation | Sincronización de hilos, barreras y simulación concurrente | Java · Threads |
+| [Secure Web System](https://github.com/DUCU844/AREP_Secure_Web_System_as_an_Enterprise_Risk_Control) | React SPA + Spring Boot resource server secured with Auth0 (OAuth2/JWT), served over HTTPS by Apache on AWS | SPA en React + API Spring Boot protegida con Auth0 (OAuth2/JWT), servida por HTTPS con Apache en AWS | React · Spring Boot · Auth0 · Apache · AWS |
+| [Java HTTP Server on AWS](https://github.com/DUCU844/AREP_From_a_Minimal_HTTP_Server_to_a_Web_Application_on_AWS) | Socket-based HTTP server extended to static resources and JSON services, deployed on EC2 | Servidor HTTP desde sockets, extendido a recursos estáticos y servicios JSON, desplegado en EC2 | Java · Sockets · AWS EC2 |
+| [Microservice Observability](https://github.com/DUCU844/ARSW_Observabilidad) | Metrics, dashboards and centralized logs for Spring Boot microservices | Métricas, dashboards y logs centralizados para microservicios Spring Boot | Spring Boot · Prometheus · Grafana · Loki · Docker Compose |
+| [Testing Strategy](https://github.com/DUCU844/ARSW_PRUEBAS) | Unit, API and integration testing for web apps and microservices | Pruebas unitarias, de API y de integración para apps web y microservicios | JUnit · Mockito · MockMvc · Spring Boot |
+| [RAG on Architecture Patterns](https://github.com/DUCU844/AREP_RAG-Gemini) | Retrieval-Augmented Generation over microservice architecture patterns | RAG sobre patrones de arquitectura de microservicios | Python · Gemini · LangChain · Chroma |
+| [AWS Lambda + API Gateway](https://github.com/DUCU844/hello_world_aws_lambda_api_gateway_java) | Java Lambda function exposed through an API Gateway endpoint | Función Lambda en Java expuesta con API Gateway | Java · AWS Lambda · API Gateway |
 
 ---
 
