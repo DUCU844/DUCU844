@@ -34,11 +34,26 @@ Estudiante de Ingeniería de Sistemas con un perfil versátil: construyo y despl
 
 ## Featured projects · Proyectos destacados
 
+### UNO Power-Ups Arena · Capstone
+
+**EN:** Real-time multiplayer UNO with power-ups and chat, built end to end as a microservice system: React client, API gateway, three Spring Boot services, and Prometheus/Grafana observability with business KPIs. Every repository has CI, tests with coverage, and Docker images.
+
+**ES:** UNO multijugador en tiempo real con power-ups y chat, construido de punta a punta como sistema de microservicios: cliente React, API gateway, tres servicios Spring Boot y observabilidad con Prometheus/Grafana y KPIs de negocio. Cada repositorio tiene CI, pruebas con cobertura e imagen Docker.
+
+| Repository | EN | ES | Stack |
+|---|---|---|---|
+| [GameService](https://github.com/UNO-POWER/GameService) | Real-time game engine, power-ups and chat over a single STOMP WebSocket, JWT on connect, in-memory concurrent model | Motor de partida en tiempo real, power-ups y chat sobre un WebSocket STOMP, JWT al conectar, modelo concurrente en memoria | Java 21 · Spring Boot · WebSocket/STOMP |
+| [FRONT](https://github.com/UNO-POWER/FRONT) | Web client with REST through the gateway and WebSocket to the game engine | Cliente web con REST vía gateway y WebSocket al motor de juego | React 18 · TypeScript · Tailwind · Vite |
+| [APIGATEWAY](https://github.com/UNO-POWER/APIGATEWAY) | Single REST entry point: routing, JWT validation, structured logs with traceId | Punto de entrada REST único: enrutamiento, validación JWT, logs estructurados con traceId | Spring Cloud Gateway · JWT |
+| [UserService](https://github.com/UNO-POWER/UserService) | Registration, login, guest access, JWT issuance, BCrypt and player statistics | Registro, login, acceso como invitado, emisión de JWT, BCrypt y estadísticas del jugador | Spring Boot · PostgreSQL · JWT |
+| [LobbyService](https://github.com/UNO-POWER/LobbyService) | Room creation and public matchmaking with pessimistic locking | Creación de salas y matchmaking público con bloqueo pesimista | Spring Boot · JPA · PostgreSQL |
+| [ObservabilityStack](https://github.com/UNO-POWER/ObservabilityStack) | Prometheus scraping and Grafana dashboards provisioned as code, technical and business KPIs | Scraping con Prometheus y dashboards de Grafana como código, KPIs técnicos y de negocio | Prometheus · Grafana · Docker Compose |
+
 ### PATRICI.A · Winning project / Proyecto ganador (DOSW 2026)
 
 | | EN | ES |
 |---|---|---|
-| [Feed & Search Service](https://github.com/PATRICI-A/mewtwocode-feed-search-service) | Microservice for the feed, search, interactions and recommendations of the platform: 5 REST endpoints secured with JWT (OAuth2 resource server), PostgreSQL, Redis cache and hexagonal architecture, with CI/CD and Docker. I also migrated the squad's message broker to a self-managed AWS EC2 instance. | Microservicio de feed, búsqueda, interacciones y recomendaciones de la plataforma: 5 endpoints REST protegidos con JWT (OAuth2 resource server), PostgreSQL, caché con Redis y arquitectura hexagonal, con CI/CD y Docker. También migré el broker de mensajería del equipo a una instancia EC2 propia. |
+| [Feed & Search Service](https://github.com/PATRICI-A/mewtwocode-feed-search-service) | Top contributor to the feed, search, interactions and recommendations microservice: 5 REST endpoints secured with JWT (OAuth2 resource server), PostgreSQL, Redis cache and hexagonal architecture, with CI/CD and Docker. I also migrated the squad's message broker to a self-managed AWS EC2 instance. | Mayor contribuidor del microservicio de feed, búsqueda, interacciones y recomendaciones: 5 endpoints REST protegidos con JWT (OAuth2 resource server), PostgreSQL, caché con Redis y arquitectura hexagonal, con CI/CD y Docker. También migré el broker de mensajería del equipo a una instancia EC2 propia. |
 
 ### Data analysis & ML · Análisis de datos y ML
 
@@ -62,6 +77,8 @@ Estudiante de Ingeniería de Sistemas con un perfil versátil: construyo y despl
 
 | Project | EN | ES | Stack |
 |---|---|---|---|
+| [Serverless Orders API](https://github.com/DUCU844/serverless-orders-api) | Contract-first REST API on AWS Lambda, deployed with two API Gateway integration styles (non-proxy with mapping templates, and Lambda proxy) and a uniform error model | API REST contract-first en AWS Lambda, desplegada con dos estilos de integración de API Gateway (non-proxy con mapping templates y Lambda proxy) y un modelo de errores uniforme | Java 17 · AWS Lambda · API Gateway |
+| [TechCup Fútbol](https://github.com/Cove1946/TechCup-FRONTEND) | Web platform for the university's internal football tournaments; frontend contributor in a team with rotating leadership | Plataforma web para torneos internos de fútbol de la universidad; contribuidor del frontend en un equipo con liderazgo rotativo | Web frontend |
 | [Java HTTP Server on AWS](https://github.com/DUCU844/AREP_From_a_Minimal_HTTP_Server_to_a_Web_Application_on_AWS) | Socket-based HTTP server extended to static resources and JSON services, deployed on EC2 | Servidor HTTP desde sockets con recursos estáticos y servicios JSON, desplegado en EC2 | Java · Sockets · AWS EC2 |
 | [Testing Strategy](https://github.com/DUCU844/ARSW_PRUEBAS) | Unit, API and integration testing for web apps and microservices | Pruebas unitarias, de API y de integración | JUnit · Mockito · MockMvc |
 | [AWS Lambda + API Gateway](https://github.com/DUCU844/hello_world_aws_lambda_api_gateway_java) | Java Lambda function exposed through API Gateway | Función Lambda en Java expuesta con API Gateway | Java · AWS Lambda |
@@ -89,9 +106,12 @@ Estudiante de Ingeniería de Sistemas con un perfil versátil: construyo y despl
 **Backend & Cloud**
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Cloud Gateway](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![WebSocket / STOMP](https://img.shields.io/badge/WebSocket%20%2F%20STOMP-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
